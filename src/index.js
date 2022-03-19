@@ -36,15 +36,6 @@ function checksCreateTodosUserAvailability(request, response, next) {
     messege:
       "You already has ten todos created, please join the pro plan for get more!",
   });
-
-  /* 
-  const user = {
-    id: uuidv4(),
-    name,
-    username,
-    pro: false,
-    todos: [],
-  }; */
 }
 
 function checksTodoExists(request, response, next) {
